@@ -7,7 +7,7 @@ from biobb_pytorch.mdae.train_model import trainModel
 from biobb_pytorch.mdae.evaluate_model import evaluateModel
 from biobb_pytorch.mdae.encode_model import evaluateEncoder
 from biobb_pytorch.mdae.decode_model import evaluateDecoder
-from biobb_pytorch.mdae.LRP import relevancePropagation
+from biobb_pytorch.mdae.explainability.LRP import relevancePropagation
 from biobb_pytorch.mdae.make_plumed import generatePlumed
 
 
