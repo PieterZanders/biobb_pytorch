@@ -1,0 +1,10 @@
+2025-09-14 00:34:27,228 [MainThread  ] [INFO ]  ## BioBB Model Trainer ##
+2025-09-14 00:34:27,228 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.train_model Version: 5.0.0
+2025-09-14 00:34:27,229 [MainThread  ] [INFO ]  Load model from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-14 00:34:27,232 [MainThread  ] [INFO ]  Load dataset from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.pt
+2025-09-14 00:34:27,711 [MainThread  ] [INFO ]  Start training...
+2025-09-14 00:43:56,876 [MainThread  ] [INFO ]  Training Metrics saved to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model_metrics.npz
+2025-09-14 00:43:56,877 [MainThread  ] [INFO ]  File size: 3.47 KB
+2025-09-14 00:43:56,887 [MainThread  ] [INFO ]  Trained Model saved to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-14 00:43:56,888 [MainThread  ] [INFO ]  File size: 2.18 MB
+2025-09-14 00:43:56,889 [MainThread  ] [INFO ]  Removed: []

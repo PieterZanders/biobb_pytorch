@@ -1,0 +1,45 @@
+2025-09-10 16:32:11,799 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.build_model Version: 5.0.0
+2025-09-10 16:32:11,800 [MainThread  ] [INFO ]  Copy: 1NE4_6NO7_b.dcd.stats.pt to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9110dda9-2e19-475a-a068-16e27dd12590
+2025-09-10 16:32:11,803 [MainThread  ] [INFO ]  ## BioBB AutoEncoder Builder ##
+2025-09-10 16:32:11,803 [MainThread  ] [INFO ]  
+2025-09-10 16:32:11,804 [MainThread  ] [INFO ]  Hyperparameters:
+2025-09-10 16:32:11,804 [MainThread  ] [INFO ]  ----------------
+2025-09-10 16:32:11,805 [MainThread  ] [INFO ]  model_type: AutoEncoder
+2025-09-10 16:32:11,805 [MainThread  ] [INFO ]  n_cvs: 2
+2025-09-10 16:32:11,805 [MainThread  ] [INFO ]  encoder_layers: [32, 16]
+2025-09-10 16:32:11,805 [MainThread  ] [INFO ]  decoder_layers: [16, 32]
+2025-09-10 16:32:11,806 [MainThread  ] [INFO ]  loss_function: MSELoss()
+2025-09-10 16:32:11,806 [MainThread  ] [INFO ]  options:
+2025-09-10 16:32:11,807 [MainThread  ] [INFO ]     encoder: {'activation': 'relu', 'last_layer_activation': False}
+2025-09-10 16:32:11,807 [MainThread  ] [INFO ]     decoder: {'activation': 'relu', 'last_layer_activation': 'sigmoid'}
+2025-09-10 16:32:11,807 [MainThread  ] [INFO ]     optimizer: {'lr': 0.0001}
+2025-09-10 16:32:11,808 [MainThread  ] [INFO ]  
+2025-09-10 16:32:11,808 [MainThread  ] [INFO ]  Model:
+2025-09-10 16:32:11,808 [MainThread  ] [INFO ]  ------
+2025-09-10 16:32:11,809 [MainThread  ] [INFO ]  AutoEncoder(
+2025-09-10 16:32:11,809 [MainThread  ] [INFO ]    (loss_fn): MSELoss()
+2025-09-10 16:32:11,810 [MainThread  ] [INFO ]    (norm_in): Normalization(in_features=804, out_features=804, mode=mean_std)
+2025-09-10 16:32:11,810 [MainThread  ] [INFO ]    (encoder): FeedForward(
+2025-09-10 16:32:11,810 [MainThread  ] [INFO ]      (nn): Sequential(
+2025-09-10 16:32:11,810 [MainThread  ] [INFO ]        (0): Linear(in_features=804, out_features=32, bias=True)
+2025-09-10 16:32:11,811 [MainThread  ] [INFO ]        (1): ReLU(inplace=True)
+2025-09-10 16:32:11,811 [MainThread  ] [INFO ]        (2): Linear(in_features=32, out_features=16, bias=True)
+2025-09-10 16:32:11,812 [MainThread  ] [INFO ]        (3): ReLU(inplace=True)
+2025-09-10 16:32:11,812 [MainThread  ] [INFO ]        (4): Linear(in_features=16, out_features=2, bias=True)
+2025-09-10 16:32:11,812 [MainThread  ] [INFO ]      )
+2025-09-10 16:32:11,813 [MainThread  ] [INFO ]    )
+2025-09-10 16:32:11,813 [MainThread  ] [INFO ]    (decoder): FeedForward(
+2025-09-10 16:32:11,813 [MainThread  ] [INFO ]      (nn): Sequential(
+2025-09-10 16:32:11,814 [MainThread  ] [INFO ]        (0): Linear(in_features=2, out_features=16, bias=True)
+2025-09-10 16:32:11,814 [MainThread  ] [INFO ]        (1): ReLU(inplace=True)
+2025-09-10 16:32:11,814 [MainThread  ] [INFO ]        (2): Linear(in_features=16, out_features=32, bias=True)
+2025-09-10 16:32:11,815 [MainThread  ] [INFO ]        (3): ReLU(inplace=True)
+2025-09-10 16:32:11,815 [MainThread  ] [INFO ]        (4): Linear(in_features=32, out_features=804, bias=True)
+2025-09-10 16:32:11,815 [MainThread  ] [INFO ]        (5): Sigmoid()
+2025-09-10 16:32:11,816 [MainThread  ] [INFO ]      )
+2025-09-10 16:32:11,816 [MainThread  ] [INFO ]    )
+2025-09-10 16:32:11,816 [MainThread  ] [INFO ]  )
+2025-09-10 16:32:11,817 [MainThread  ] [INFO ]  
+2025-09-10 16:32:11,817 [MainThread  ] [INFO ]  Model saved in .pth format in /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-10 16:32:11,817 [MainThread  ] [INFO ]  File size: 225.6 KB
+2025-09-10 16:32:11,818 [MainThread  ] [INFO ]  Removed: []

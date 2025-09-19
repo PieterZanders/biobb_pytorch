@@ -1,0 +1,10 @@
+2025-09-12 17:35:05,919 [MainThread  ] [INFO ]  ## BioBB Layer-wise Relevance Propagation ##
+2025-09-12 17:35:05,920 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.explainability.LRP Version: 5.0.0
+2025-09-12 17:35:05,921 [MainThread  ] [INFO ]  Copy: test_model.pth to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/16e8f035-1683-4af7-a45b-423ae9b145c1
+2025-09-12 17:35:05,943 [MainThread  ] [INFO ]  Copy: 1NE4_6NO7_b.dcd.pt to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/16e8f035-1683-4af7-a45b-423ae9b145c1
+2025-09-12 17:35:05,944 [MainThread  ] [INFO ]  Load model from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-12 17:35:05,946 [MainThread  ] [INFO ]  Load dataset from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.pt
+2025-09-12 17:35:06,191 [MainThread  ] [INFO ]  Start LRP analysis...
+2025-09-12 17:35:06,196 [MainThread  ] [INFO ]  Results saved to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/lrp_results2.npz
+2025-09-12 17:35:06,197 [MainThread  ] [INFO ]  File size: 2.74 KB
+2025-09-12 17:35:06,197 [MainThread  ] [INFO ]  Removed: []

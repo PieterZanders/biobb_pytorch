@@ -1,0 +1,10 @@
+2025-09-14 19:09:10,046 [MainThread  ] [INFO ]  ## BioBB Model Evaluator ##
+2025-09-14 19:09:10,046 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.decode_model Version: 5.0.0
+2025-09-14 19:09:10,049 [MainThread  ] [INFO ]  Copy: test_model.pth to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/95640b17-86e5-4c91-9b59-7ded9f40e971
+2025-09-14 19:09:10,050 [MainThread  ] [INFO ]  Copy: z.npy to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/95640b17-86e5-4c91-9b59-7ded9f40e971
+2025-09-14 19:09:10,051 [MainThread  ] [INFO ]  Load model from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-14 19:09:10,054 [MainThread  ] [INFO ]  Load dataset from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/z.npy
+2025-09-14 19:09:10,055 [MainThread  ] [INFO ]  Start evaluating...
+2025-09-14 19:09:10,924 [MainThread  ] [INFO ]  Evaluation Results saved to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/decoded_results.npz
+2025-09-14 19:09:10,924 [MainThread  ] [INFO ]  File size: 5.56 MB
+2025-09-14 19:09:10,925 [MainThread  ] [INFO ]  Removed: []

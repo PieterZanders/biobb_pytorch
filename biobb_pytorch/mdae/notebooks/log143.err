@@ -1,0 +1,14 @@
+2025-09-14 01:17:56,484 [MainThread  ] [INFO ]               :-) GROMACS - gmx make_ndx, 2021.4-Ubuntu-2021.4-2 (-:
+
+Executable:   /usr/bin/gmx
+Data prefix:  /usr
+Working dir:  /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks
+Command line:
+  gmx -nobackup -nocopyright make_ndx -f /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7/structure.pdb -o /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7/alpha_carbons.ndx
+
+
+Reading structure file
+
+GROMACS reminds you: "Way to Go Dude" (Beavis and Butthead)
+
+

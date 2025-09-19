@@ -1,0 +1,23 @@
+2025-09-10 17:17:39,460 [MainThread  ] [INFO ]  Available Trajectory Properties:
+2025-09-10 17:17:39,460 [MainThread  ] [INFO ]     - Number of frames: 275
+2025-09-10 17:17:39,461 [MainThread  ] [INFO ]  Featurizing the trajectory /home/pzanders/Documents/Simulations/GodMD/domini/1NE4_6NO7_b.dcd
+2025-09-10 17:17:39,469 [MainThread  ] [INFO ]  Features:
+2025-09-10 17:17:39,470 [MainThread  ] [INFO ]    Cartesian:
+2025-09-10 17:17:39,470 [MainThread  ] [INFO ]     - Topology Selection: name CA
+2025-09-10 17:17:39,470 [MainThread  ] [INFO ]     - Number of features: 804
+2025-09-10 17:17:39,471 [MainThread  ] [INFO ]    Distances:
+2025-09-10 17:17:39,471 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-10 17:17:39,471 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-10 17:17:39,472 [MainThread  ] [INFO ]    Angles:
+2025-09-10 17:17:39,472 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-10 17:17:39,472 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-10 17:17:39,473 [MainThread  ] [INFO ]    Dihedrals:
+2025-09-10 17:17:39,473 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-10 17:17:39,474 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-10 17:17:39,474 [MainThread  ] [INFO ]  Postprocessing:
+2025-09-10 17:17:39,474 [MainThread  ] [INFO ]     - Normalization: None
+2025-09-10 17:17:39,475 [MainThread  ] [INFO ]     - Timelag: 10
+2025-09-10 17:17:39,475 [MainThread  ] [INFO ]  Dataset Properties:
+2025-09-10 17:17:39,475 [MainThread  ] [INFO ]     - Dataset: dict_keys(['data', 'target'])
+2025-09-10 17:17:39,476 [MainThread  ] [INFO ]     - Number of frames: 265
+2025-09-10 17:17:39,476 [MainThread  ] [INFO ]     - Number of features: 804

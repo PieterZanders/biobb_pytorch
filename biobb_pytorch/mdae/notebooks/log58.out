@@ -1,0 +1,20 @@
+2025-09-12 12:37:49,930 [MainThread  ] [INFO ]  Executing biobb_analysis.gromacs.gmx_image Version: 4.2.0
+2025-09-12 12:37:49,967 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/traj.xtc to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c
+2025-09-12 12:37:49,969 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/structure.pdb to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c
+2025-09-12 12:37:49,970 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/alpha_carbons.ndx to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c
+2025-09-12 12:37:49,971 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/26a14d9b-042c-4953-a5ee-4ea033b8a23e.stdin to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c
+2025-09-12 12:37:49,971 [MainThread  ] [INFO ]  gmx trjconv -f /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c/traj.xtc -s /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c/structure.pdb -fit rot+trans -o /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c/newTrajectory.xtc -n /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c/alpha_carbons.ndx -center < /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c/26a14d9b-042c-4953-a5ee-4ea033b8a23e.stdin
+
+2025-09-12 12:37:50,280 [MainThread  ] [INFO ]  Exit code 1
+
+2025-09-12 12:37:50,281 [MainThread  ] [INFO ]  Note that major changes are planned in future for trjconv, to improve usability and utility.
+
+WARNING: Masses and atomic (Van der Waals) radii will be guessed
+         based on residue and atom names, since they could not be
+         definitively assigned from the information in your input
+         files. These guessed numbers might deviate from the mass
+         and radius of the atom type. Please check the output
+         files if necessary.
+
+
+2025-09-12 12:37:50,294 [MainThread  ] [INFO ]  Removed: ['/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6f479fed-d1b5-4f7f-8f76-5c0a5ad2e66c', '/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/26a14d9b-042c-4953-a5ee-4ea033b8a23e.stdin']

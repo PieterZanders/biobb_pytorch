@@ -1,0 +1,49 @@
+2025-09-14 18:52:28,459 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.build_model Version: 5.0.0
+2025-09-14 18:52:28,463 [MainThread  ] [INFO ]  Copy: 1NE4_6NO7_b.dcd.stats.pt to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/106eba76-d6a7-4250-8524-6cb6b83b059b
+2025-09-14 18:52:28,473 [MainThread  ] [INFO ]  ## BioBB AutoEncoder Builder ##
+2025-09-14 18:52:28,474 [MainThread  ] [INFO ]  
+2025-09-14 18:52:28,474 [MainThread  ] [INFO ]  Hyperparameters:
+2025-09-14 18:52:28,475 [MainThread  ] [INFO ]  ----------------
+2025-09-14 18:52:28,475 [MainThread  ] [INFO ]  model_type: AutoEncoder
+2025-09-14 18:52:28,476 [MainThread  ] [INFO ]  n_cvs: 20
+2025-09-14 18:52:28,476 [MainThread  ] [INFO ]  encoder_layers: [256, 128, 64]
+2025-09-14 18:52:28,477 [MainThread  ] [INFO ]  decoder_layers: [64, 128, 256]
+2025-09-14 18:52:28,477 [MainThread  ] [INFO ]  loss_function: MSELoss()
+2025-09-14 18:52:28,478 [MainThread  ] [INFO ]  options:
+2025-09-14 18:52:28,478 [MainThread  ] [INFO ]     encoder: {'activation': 'relu', 'last_layer_activation': False}
+2025-09-14 18:52:28,479 [MainThread  ] [INFO ]     decoder: {'activation': 'relu', 'last_layer_activation': 'sigmoid'}
+2025-09-14 18:52:28,479 [MainThread  ] [INFO ]     optimizer: {'lr': 0.0001}
+2025-09-14 18:52:28,479 [MainThread  ] [INFO ]  
+2025-09-14 18:52:28,480 [MainThread  ] [INFO ]  Model:
+2025-09-14 18:52:28,480 [MainThread  ] [INFO ]  ------
+2025-09-14 18:52:28,480 [MainThread  ] [INFO ]  AutoEncoder(
+2025-09-14 18:52:28,481 [MainThread  ] [INFO ]    (loss_fn): MSELoss()
+2025-09-14 18:52:28,481 [MainThread  ] [INFO ]    (norm_in): Normalization(in_features=801, out_features=801, mode=mean_std)
+2025-09-14 18:52:28,482 [MainThread  ] [INFO ]    (encoder): FeedForward(
+2025-09-14 18:52:28,482 [MainThread  ] [INFO ]      (nn): Sequential(
+2025-09-14 18:52:28,482 [MainThread  ] [INFO ]        (0): Linear(in_features=801, out_features=256, bias=True)
+2025-09-14 18:52:28,483 [MainThread  ] [INFO ]        (1): ReLU(inplace=True)
+2025-09-14 18:52:28,483 [MainThread  ] [INFO ]        (2): Linear(in_features=256, out_features=128, bias=True)
+2025-09-14 18:52:28,483 [MainThread  ] [INFO ]        (3): ReLU(inplace=True)
+2025-09-14 18:52:28,484 [MainThread  ] [INFO ]        (4): Linear(in_features=128, out_features=64, bias=True)
+2025-09-14 18:52:28,484 [MainThread  ] [INFO ]        (5): ReLU(inplace=True)
+2025-09-14 18:52:28,485 [MainThread  ] [INFO ]        (6): Linear(in_features=64, out_features=20, bias=True)
+2025-09-14 18:52:28,485 [MainThread  ] [INFO ]      )
+2025-09-14 18:52:28,485 [MainThread  ] [INFO ]    )
+2025-09-14 18:52:28,485 [MainThread  ] [INFO ]    (decoder): FeedForward(
+2025-09-14 18:52:28,486 [MainThread  ] [INFO ]      (nn): Sequential(
+2025-09-14 18:52:28,486 [MainThread  ] [INFO ]        (0): Linear(in_features=20, out_features=64, bias=True)
+2025-09-14 18:52:28,486 [MainThread  ] [INFO ]        (1): ReLU(inplace=True)
+2025-09-14 18:52:28,487 [MainThread  ] [INFO ]        (2): Linear(in_features=64, out_features=128, bias=True)
+2025-09-14 18:52:28,487 [MainThread  ] [INFO ]        (3): ReLU(inplace=True)
+2025-09-14 18:52:28,489 [MainThread  ] [INFO ]        (4): Linear(in_features=128, out_features=256, bias=True)
+2025-09-14 18:52:28,489 [MainThread  ] [INFO ]        (5): ReLU(inplace=True)
+2025-09-14 18:52:28,490 [MainThread  ] [INFO ]        (6): Linear(in_features=256, out_features=801, bias=True)
+2025-09-14 18:52:28,490 [MainThread  ] [INFO ]        (7): Sigmoid()
+2025-09-14 18:52:28,490 [MainThread  ] [INFO ]      )
+2025-09-14 18:52:28,491 [MainThread  ] [INFO ]    )
+2025-09-14 18:52:28,491 [MainThread  ] [INFO ]  )
+2025-09-14 18:52:28,492 [MainThread  ] [INFO ]  
+2025-09-14 18:52:28,493 [MainThread  ] [INFO ]  Model saved in .pth format in /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-14 18:52:28,493 [MainThread  ] [INFO ]  File size: 1.91 MB
+2025-09-14 18:52:28,494 [MainThread  ] [INFO ]  Removed: []

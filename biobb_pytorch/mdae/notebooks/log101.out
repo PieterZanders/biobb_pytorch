@@ -1,0 +1,31 @@
+2025-09-12 17:54:18,318 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.make_plumed Version: 5.0.0
+2025-09-12 17:54:18,320 [MainThread  ] [INFO ]  Copy: test_model.pth to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/d8df8acb-80df-4661-8a17-7cc6493b5428
+2025-09-12 17:54:18,321 [MainThread  ] [INFO ]  Copy: 1NE4_6NO7_b.dcd.stats.pt to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/d8df8acb-80df-4661-8a17-7cc6493b5428
+2025-09-12 17:54:18,322 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/Simulations/GodMD/domini/1NE4_6NO7_b.godmd.pdb to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/d8df8acb-80df-4661-8a17-7cc6493b5428
+2025-09-12 17:54:18,323 [MainThread  ] [INFO ]  Copy: alpha_carbons.ndx to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/d8df8acb-80df-4661-8a17-7cc6493b5428
+2025-09-12 17:54:18,324 [MainThread  ] [INFO ]  Found 312 Cartesian features.
+2025-09-12 17:54:18,324 [MainThread  ] [INFO ]  Using GROUP: backbone
+2025-09-12 17:54:18,325 [MainThread  ] [INFO ]     Parameters:
+2025-09-12 17:54:18,325 [MainThread  ] [INFO ]      > SELECTION: backbone
+2025-09-12 17:54:18,325 [MainThread  ] [INFO ]  WARNING: Using Cartesian coordinates but no WHOLEMOLECULES parameters provided; add WHOLEMOLECULES in properties.
+2025-09-12 17:54:18,326 [MainThread  ] [INFO ]  Using FIT_TO_TEMPLATE
+2025-09-12 17:54:18,326 [MainThread  ] [INFO ]     Reference PDB: /home/pzanders/Documents/Simulations/GodMD/domini/1NE4_6NO7_b.godmd.pdb
+2025-09-12 17:54:18,327 [MainThread  ] [INFO ]     Parameters:
+2025-09-12 17:54:18,327 [MainThread  ] [INFO ]      > STRIDE: 1
+2025-09-12 17:54:18,327 [MainThread  ] [INFO ]      > TYPE: OPTIMAL
+2025-09-12 17:54:18,328 [MainThread  ] [INFO ]  Using PYTORCH_MODEL: cv
+2025-09-12 17:54:18,328 [MainThread  ] [INFO ]     Model ptc file: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/plumed_model.ptc
+2025-09-12 17:54:18,328 [MainThread  ] [INFO ]  Using Bias:
+2025-09-12 17:54:18,329 [MainThread  ] [INFO ]     Command: METAD
+2025-09-12 17:54:18,329 [MainThread  ] [INFO ]     Parameters:
+2025-09-12 17:54:18,329 [MainThread  ] [INFO ]      > ARG: cv.*
+2025-09-12 17:54:18,330 [MainThread  ] [INFO ]      > PACE: 500
+2025-09-12 17:54:18,330 [MainThread  ] [INFO ]      > HEIGHT: 1.2
+2025-09-12 17:54:18,331 [MainThread  ] [INFO ]      > SIGMA: 0.35
+2025-09-12 17:54:18,331 [MainThread  ] [INFO ]      > FILE: HILLS
+2025-09-12 17:54:18,331 [MainThread  ] [INFO ]      > BIASFACTOR: 8
+2025-09-12 17:54:18,332 [MainThread  ] [INFO ]  Generated features.dat at /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/features.dat
+2025-09-12 17:54:18,333 [MainThread  ] [INFO ]  File size: 7.78 KB
+2025-09-12 17:54:18,335 [MainThread  ] [INFO ]  Generated PLUMED file at /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/plumed.dat
+2025-09-12 17:54:18,335 [MainThread  ] [INFO ]  File size: 7.62 KB
+2025-09-12 17:54:18,336 [MainThread  ] [INFO ]  Removed: []

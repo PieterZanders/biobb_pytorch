@@ -1,0 +1,23 @@
+2025-09-12 17:31:48,916 [MainThread  ] [INFO ]  Available Trajectory Properties:
+2025-09-12 17:31:48,916 [MainThread  ] [INFO ]     - Number of frames: 5000
+2025-09-12 17:31:48,916 [MainThread  ] [INFO ]  Featurizing the trajectory traj.xtc
+2025-09-12 17:31:48,999 [MainThread  ] [INFO ]  Features:
+2025-09-12 17:31:48,999 [MainThread  ] [INFO ]    Cartesian:
+2025-09-12 17:31:48,999 [MainThread  ] [INFO ]     - Topology Selection: name CA
+2025-09-12 17:31:49,000 [MainThread  ] [INFO ]     - Number of features: 936
+2025-09-12 17:31:49,000 [MainThread  ] [INFO ]    Distances:
+2025-09-12 17:31:49,000 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-12 17:31:49,001 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-12 17:31:49,001 [MainThread  ] [INFO ]    Angles:
+2025-09-12 17:31:49,001 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-12 17:31:49,002 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-12 17:31:49,002 [MainThread  ] [INFO ]    Dihedrals:
+2025-09-12 17:31:49,003 [MainThread  ] [INFO ]     - Topology Selection: None
+2025-09-12 17:31:49,003 [MainThread  ] [INFO ]     - Number of features: 0
+2025-09-12 17:31:49,003 [MainThread  ] [INFO ]  Postprocessing:
+2025-09-12 17:31:49,004 [MainThread  ] [INFO ]     - Normalization: None
+2025-09-12 17:31:49,004 [MainThread  ] [INFO ]     - Timelag: 10
+2025-09-12 17:31:49,005 [MainThread  ] [INFO ]  Dataset Properties:
+2025-09-12 17:31:49,005 [MainThread  ] [INFO ]     - Dataset: dict_keys(['data', 'target'])
+2025-09-12 17:31:49,006 [MainThread  ] [INFO ]     - Number of frames: 4990
+2025-09-12 17:31:49,006 [MainThread  ] [INFO ]     - Number of features: 936

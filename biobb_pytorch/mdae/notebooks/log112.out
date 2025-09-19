@@ -1,0 +1,14 @@
+2025-09-14 00:30:05,797 [MainThread  ] [INFO ]  Executing biobb_analysis.gromacs.gmx_trjconv_str Version: 4.2.0
+2025-09-14 00:30:05,800 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/structure.pdb to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21
+2025-09-14 00:30:05,802 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/structure.pdb to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21
+2025-09-14 00:30:05,803 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/alpha_carbons.ndx to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21
+2025-09-14 00:30:05,805 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9ed98521-bce4-4b48-a242-aaa0d82cb6b6.stdin to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21
+2025-09-14 00:30:05,805 [MainThread  ] [INFO ]  gmx trjconv -f /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21/structure.pdb -s /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21/structure.pdb -o /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21/reconstructed.pdb -nocenter -n /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21/alpha_carbons.ndx < /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21/9ed98521-bce4-4b48-a242-aaa0d82cb6b6.stdin
+
+2025-09-14 00:30:06,286 [MainThread  ] [INFO ]  Exit code 0
+
+2025-09-14 00:30:06,287 [MainThread  ] [INFO ]  Note that major changes are planned in future for trjconv, to improve usability and utility.
+Select group for output
+Selected 3: 'C-alpha'
+
+2025-09-14 00:30:06,292 [MainThread  ] [INFO ]  Removed: ['/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9f2c9a04-b862-4e58-a9e3-1873d80dec21', '/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/9ed98521-bce4-4b48-a242-aaa0d82cb6b6.stdin']

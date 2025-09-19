@@ -1,0 +1,38 @@
+2025-09-14 01:17:56,382 [MainThread  ] [INFO ]  Executing biobb_gromacs.gromacs.make_ndx Version: 4.2.0
+2025-09-14 01:17:56,384 [MainThread  ] [INFO ]  Copy: structure.pdb to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7
+2025-09-14 01:17:56,385 [MainThread  ] [INFO ]  Copy: /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/99cb2e73-c4e0-4a87-b917-5084c51c160e.stdin to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7
+2025-09-14 01:17:56,385 [MainThread  ] [INFO ]  gmx -nobackup -nocopyright make_ndx -f /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7/structure.pdb -o /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7/alpha_carbons.ndx < /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7/99cb2e73-c4e0-4a87-b917-5084c51c160e.stdin
+
+2025-09-14 01:17:56,483 [MainThread  ] [INFO ]  Exit code 0
+
+2025-09-14 01:17:56,484 [MainThread  ] [INFO ]  Going to read 0 old index file(s)
+Analysing residue names:
+There are:   267    Protein residues
+Analysing Protein...
+
+  0 System              :  4384 atoms
+  1 Protein             :  4384 atoms
+  2 Protein-H           :  2193 atoms
+  3 C-alpha             :   267 atoms
+  4 Backbone            :   801 atoms
+  5 MainChain           :  1069 atoms
+  6 MainChain+Cb        :  1333 atoms
+  7 MainChain+H         :  1323 atoms
+  8 SideChain           :  3061 atoms
+  9 SideChain-H         :  1124 atoms
+
+ nr : group      '!': not  'name' nr name   'splitch' nr    Enter: list groups
+ 'a': atom       '&': and  'del' nr         'splitres' nr   'l': list residues
+ 't': atom type  '|': or   'keep' nr        'splitat' nr    'h': help
+ 'r': residue              'res' nr         'chain' char
+ "name": group             'case': case sensitive           'q': save and quit
+ 'ri': residue index
+
+> 
+Found 267 atoms with name CA
+
+ 10 CA                  :   267 atoms
+
+> 
+
+2025-09-14 01:17:56,486 [MainThread  ] [INFO ]  Removed: ['/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/6eb72217-04d2-46e8-be98-3e3512763fd7', '/home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/99cb2e73-c4e0-4a87-b917-5084c51c160e.stdin']

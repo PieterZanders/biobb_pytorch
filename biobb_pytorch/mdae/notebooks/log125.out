@@ -1,0 +1,10 @@
+2025-09-14 00:44:16,142 [MainThread  ] [INFO ]  ## BioBB Model Evaluator ##
+2025-09-14 00:44:16,142 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.encode_model Version: 5.0.0
+2025-09-14 00:44:16,144 [MainThread  ] [INFO ]  Copy: test_model.pth to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/06c83af1-2382-4b80-9d55-0127a4ce4095
+2025-09-14 00:44:16,187 [MainThread  ] [INFO ]  Copy: 1NE4_6NO7_b.dcd.pt to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/06c83af1-2382-4b80-9d55-0127a4ce4095
+2025-09-14 00:44:16,187 [MainThread  ] [INFO ]  Load model from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
+2025-09-14 00:44:16,190 [MainThread  ] [INFO ]  Load dataset from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.pt
+2025-09-14 00:44:16,655 [MainThread  ] [INFO ]  Start evaluating...
+2025-09-14 00:44:17,111 [MainThread  ] [INFO ]  Evaluation Results saved to /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_encoder_results.npz
+2025-09-14 00:44:17,111 [MainThread  ] [INFO ]  File size: 724.04 KB
+2025-09-14 00:44:17,112 [MainThread  ] [INFO ]  Removed: []
