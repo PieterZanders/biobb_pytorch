@@ -2,7 +2,7 @@ import mdtraj as md
 import numpy as np
 import torch
 from biobb_pytorch.mdae.featurization.normalization import Normalization
-from mlcolvar.core.transform.utils import Statistics
+from biobb_pytorch.mdae.utils import Statistics
 
 class Featurizer:
     """

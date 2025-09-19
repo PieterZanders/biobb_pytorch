@@ -3,7 +3,7 @@ import torch.nn as nn
 import lightning
 from mlcolvar.cvs import BaseCV
 from biobb_pytorch.mdae.featurization.normalization import Normalization
-from mlcolvar.core.transform.utils import Inverse
+from biobb_pytorch.mdae.utils import Inverse
 from biobb_pytorch.mdae.models.nn.feedforward import FeedForward 
 from biobb_pytorch.mdae.loss import ELBOGaussiansLoss, ELBOGaussianMixtureLoss
 

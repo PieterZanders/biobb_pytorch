@@ -10,7 +10,7 @@ from biobb_common.tools.file_utils import launchlogger
 from biobb_common.tools import file_utils as fu
 from biobb_pytorch.mdae.utils.log_utils import get_size
 from biobb_common.generic.biobb_object import BiobbObject
-from mlcolvar.data import DictDataset
+from biobb_pytorch.mdae.data import DictDataset
 import numpy as np
 
 class EvaluateModel(BiobbObject):

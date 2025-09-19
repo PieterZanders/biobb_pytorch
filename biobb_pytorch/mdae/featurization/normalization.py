@@ -9,7 +9,7 @@
 # --------------------------------------------------------------------------------------
 
 import torch
-from mlcolvar.core.transform.utils import Statistics
+from biobb_pytorch.mdae.utils import Statistics
 from mlcolvar.core.transform import Transform
 
 __all__ = ["Normalization"]
@@ -223,7 +223,7 @@ class Normalization(Transform):
 
 
 def test_normalization():
-    from mlcolvar.core.transform.utils import Inverse
+    from biobb_pytorch.mdae.utils import Inverse
 
     # create data
     torch.manual_seed(42)
@@ -231,7 +231,7 @@ def test_normalization():
     X = torch.randn((100, in_features)) * 10
 
     # get stats
-    from mlcolvar.core.transform.utils import Statistics
+    from biobb_pytorch.mdae.utils import Statistics
 
     stats = Statistics(X).to_dict()
     norm = Normalization(in_features, mean=stats["mean"], range=stats["std"])

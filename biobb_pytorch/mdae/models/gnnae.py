@@ -2,7 +2,7 @@
 # import lightning
 # from mlcolvar.cvs import BaseCV
 # from torch_geometric.nn import GCNConv, global_mean_pool
-# from mlcolvar.core.transform.utils import Inverse
+# from biobb_pytorch.mdae.utils import Inverse
 # from biobb_pytorch.mdae.featurization.normalization import Normalization
 # from biobb_pytorch.mdae.loss import MSELoss
 

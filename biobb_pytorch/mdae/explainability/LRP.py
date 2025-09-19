@@ -11,7 +11,7 @@ from biobb_common.tools import file_utils as fu
 from biobb_pytorch.mdae.utils.log_utils import get_size
 from biobb_common.generic.biobb_object import BiobbObject
 from torch.utils.data import DataLoader
-from mlcolvar.data import DictDataset
+from biobb_pytorch.mdae.data import DictDataset
 from biobb_pytorch.mdae.explainability.layerwise_relevance_prop import lrp_encoder  
 
 class LRP(BiobbObject):

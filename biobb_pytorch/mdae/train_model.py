@@ -1,8 +1,8 @@
-import importlib
-import torch
-from typing import Dict, Any, Type
 import os
+import torch
 import argparse
+import lightning
+import numpy as np
 from typing import Optional
 from biobb_common.configuration import settings
 from biobb_common.tools.file_utils import launchlogger
@@ -13,10 +13,8 @@ import lightning.pytorch.callbacks as _cbs
 import lightning.pytorch.loggers as _loggers
 import lightning.pytorch.profilers as _profiler
 from mlcolvar.utils.trainer import MetricsCallback
-import lightning
-from mlcolvar.data import DictModule
-from mlcolvar.data import DictDataset
-import numpy as np
+from biobb_pytorch.mdae.data import DictModule
+from biobb_pytorch.mdae.data import DictDataset
 
 class TrainModel(BiobbObject):
     """

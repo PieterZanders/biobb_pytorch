@@ -434,7 +434,7 @@ def compute_descriptors_derivatives(dataset, descriptor_function, n_atoms, separ
 def test_smart_derivatives():
     from mlcolvar.core.transform import PairwiseDistances
     from mlcolvar.core.nn import FeedForward
-    from mlcolvar.data import DictDataset
+    from biobb_pytorch.mdae.data import DictDataset
 
     # compute some descriptors from positions --> distances
     n_atoms = 10

@@ -1,24 +1,13 @@
-import torch
-from torch.utils.data import DataLoader
-import importlib
-import torch
-from typing import Dict, Any, Type
 import os
+import torch
 import argparse
-from typing import Optional
+import numpy as np
+from torch.utils.data import DataLoader
 from biobb_common.configuration import settings
 from biobb_common.tools.file_utils import launchlogger
 from biobb_common.tools import file_utils as fu
 from biobb_pytorch.mdae.utils.log_utils import get_size
 from biobb_common.generic.biobb_object import BiobbObject
-import lightning.pytorch.callbacks as _cbs
-import lightning.pytorch.loggers as _loggers
-import lightning.pytorch.profilers as _profiler
-from mlcolvar.utils.trainer import MetricsCallback
-import lightning
-from mlcolvar.data import DictModule
-from mlcolvar.data import DictDataset
-import numpy as np
 
 class EvaluateDecoder(BiobbObject):
     """
