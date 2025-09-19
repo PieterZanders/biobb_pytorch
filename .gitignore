@@ -17,15 +17,14 @@ biobb_pytorch/mdae/notebooks/*
 *.dcd
 *.npy
 *.npz
+*.stats.pt
+*.dcd.pt
+*.dcd.stats.pt
 
 # System files
 .DS_Store
 .ipynb_checkpointses.md
 .ipynb_checkpoints
-.DS_Store
 log*.*
 !logo.png
-.ipynb_checkpoints/
-./biobb_pytorch/mdae/notebooks
-./biobb_pytorch/mdae/notebooks/*
 
