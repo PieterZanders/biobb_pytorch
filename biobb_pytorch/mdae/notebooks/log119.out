@@ -1,6 +1,0 @@
-2025-09-14 00:31:39,351 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.mdfeaturizer Version: 5.0.0
-2025-09-14 00:31:39,990 [MainThread  ] [INFO ]  Dataset saved in .pt format in /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.pt
-2025-09-14 00:31:39,990 [MainThread  ] [INFO ]  File size: 107.71 MB
-2025-09-14 00:31:40,016 [MainThread  ] [INFO ]  Dataset statistics saved in .pt format in /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.stats.pt
-2025-09-14 00:31:40,017 [MainThread  ] [INFO ]  File size: 75.77 KB
-2025-09-14 00:31:40,017 [MainThread  ] [INFO ]  Removed: []

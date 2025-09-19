@@ -1,9 +1,0 @@
-2025-09-09 15:34:10,594 [MainThread  ] [INFO ]  ## BioBB Featurization - MDFeaturePipeline ##
-2025-09-09 15:34:10,595 [MainThread  ] [INFO ]  Obtaining the topology information from /home/pzanders/Documents/Simulations/GodMD/domini/1NE4_6NO7_b.godmd.pdb
-2025-09-09 15:34:10,619 [MainThread  ] [INFO ]  Available Topology Properties:
-2025-09-09 15:34:10,620 [MainThread  ] [INFO ]    - Number of chains: 1
-2025-09-09 15:34:10,620 [MainThread  ] [INFO ]    - Number of residues: 268
-2025-09-09 15:34:10,620 [MainThread  ] [INFO ]    - Number of atoms: 268
-2025-09-09 15:34:10,620 [MainThread  ] [INFO ]    - Number of distances: 35778
-2025-09-09 15:34:10,621 [MainThread  ] [INFO ]    - Number of angles: N/A
-2025-09-09 15:34:10,621 [MainThread  ] [INFO ]    - Number of dihedrals: N/A

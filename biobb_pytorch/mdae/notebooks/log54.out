@@ -1,9 +1,0 @@
-2025-09-12 12:33:48,181 [MainThread  ] [INFO ]  ## BioBB Featurization - MDFeaturePipeline ##
-2025-09-12 12:33:48,181 [MainThread  ] [INFO ]  Obtaining the topology information from structure.pdb
-2025-09-12 12:33:48,264 [MainThread  ] [INFO ]  Available Topology Properties:
-2025-09-12 12:33:48,265 [MainThread  ] [INFO ]    - Number of chains: 2
-2025-09-12 12:33:48,265 [MainThread  ] [INFO ]    - Number of residues: 313
-2025-09-12 12:33:48,265 [MainThread  ] [INFO ]    - Number of atoms: 312
-2025-09-12 12:33:48,266 [MainThread  ] [INFO ]    - Number of distances: N/A
-2025-09-12 12:33:48,266 [MainThread  ] [INFO ]    - Number of angles: N/A
-2025-09-12 12:33:48,266 [MainThread  ] [INFO ]    - Number of dihedrals: N/A

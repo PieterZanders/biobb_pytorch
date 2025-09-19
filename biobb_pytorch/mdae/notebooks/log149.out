@@ -1,5 +1,0 @@
-2025-09-14 18:52:28,678 [MainThread  ] [INFO ]  ## BioBB Model Trainer ##
-2025-09-14 18:52:28,679 [MainThread  ] [INFO ]  Executing biobb_pytorch.mdae.train_model Version: 5.0.0
-2025-09-14 18:52:28,679 [MainThread  ] [INFO ]  Load model from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/test_model.pth
-2025-09-14 18:52:28,682 [MainThread  ] [INFO ]  Load dataset from /home/pzanders/Documents/BSC/BioExcel/biobb/biobb_pytorch/biobb_pytorch/mdae/notebooks/1NE4_6NO7_b.dcd.pt
-2025-09-14 18:52:29,050 [MainThread  ] [INFO ]  Start training...
